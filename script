@@ -1,0 +1,7 @@
+#!/bin/bash
+javac HammingComparer.java
+
+echo "Timing for randomLowerCaseString method:"
+time java -Djava.compiler=NONE HammingComparer randomLowerCaseString
+echo "Timing for randomLowerCaseStringII method:"
+time java -Djava.compiler=NONE HammingComparer randomLowerCaseStringII
